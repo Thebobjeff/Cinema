@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-const fetch = require("node-fetch");
+
 
 export const useSearch = (apiPath, queryTerm) => {
   const [content, setContent] = useState([]);
